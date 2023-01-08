@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header"><?php echo e(__('Dashboard')); ?></div>
+                <div class="card-header">Painel</div>
 
                 <div class="card-body">
                     <?php if(session('status')): ?>
@@ -13,8 +13,9 @@
                         </div>
                     <?php endif; ?>
 
-                    <?php echo e(__('You are logged in!')); ?>
+                    
 
+                    Sitema integrado de atendimento em restaurantes
                 </div>
             </div>
         </div>
