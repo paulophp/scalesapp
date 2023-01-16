@@ -8,7 +8,7 @@
                 <div class="card-header">Produtos</div>
 
                 <div class="card-body">
-                    Cadastrar um novo produto:
+                    Cadastrar um novo produto: {{$name}}
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">

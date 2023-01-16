@@ -27,4 +27,6 @@ Route::get("/home", [
 Route::get("/produtos", [
     App\Http\Controllers\ProdutoController::class,
     "index",
-])->name("produtos");
+])
+    ->name("produtos")
+    ->middleware("auth");
